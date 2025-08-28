@@ -1,2 +1,101 @@
 node_modules
 .env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# FastAPI / Uvicorn specific
+*.log
+*.pid
+*.sock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Local config
+.env
+.env.*
+*.local
+*.secret
+
+# Logs
+logs/
+*.log
+
+# SQLite (if using locally for testing)
+*.db
+*.sqlite3
+
+# Docker
+*.pid
+*.tar
+*.bak

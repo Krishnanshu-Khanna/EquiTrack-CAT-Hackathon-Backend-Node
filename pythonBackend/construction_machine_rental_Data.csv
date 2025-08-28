@@ -1,0 +1,61 @@
+ActiveEngineHours,IdleTime,FuelUsage (L),LoadUsage,TypeOfProject,Weather/Season,MachineType,SiteDemographic,ContractValue,PromisedTime,actualtime_months,ClientEfficiency
+620,180,4200,850,Roadwork,Summer,Excavator,Urban,"120,000",3,4,0.21
+310,90,2100,400,Housing Build,Winter,Crane,Suburban,"85,000",2,2,0.92
+450,120,3100,600,Mining,Monsoon,Loader,Rural,"150,000",5,6,0.55
+250,60,1500,280,Warehouse,Spring,Forklift,Industrial Zone,"40,000",1,1,0.89
+540,200,3700,720,Highway Bridge,Monsoon,Excavator,Semi-urban,"180,000",4,5,0.18
+400,100,2800,500,Railwork,Autumn,Bulldozer,Rural,"130,000",3,3,0.95
+300,80,2100,350,Factory Build,Summer,Crane,Industrial Zone,"95,000",2,2,0.85
+700,240,4900,950,Dam Construction,Monsoon,Excavator,Rural,"250,000",6,7,0.48
+280,70,1800,300,Office Complex,Spring,Forklift,Urban,"60,000",2,2,0.91
+600,160,4000,800,Metro Tunnel,Winter,Tunnel Borer,Urban,"220,000",5,5,0.94
+480,140,3300,650,Airport Runway,Monsoon,Grader,Semi-urban,"160,000",4,5,0.51
+330,100,2250,420,Housing Build,Autumn,Crane,Suburban,"90,000",2,2,0.88
+750,250,5300,1000,Mining Expansion,Summer,Excavator,Rural,"280,000",6,7,0.15
+220,50,1300,250,Retail Store,Spring,Forklift,Urban,"35,000",1,1,0.86
+650,210,4500,880,Pipeline,Winter,Trencher,Rural,"190,000",5,5,0.93
+500,150,3500,680,Roadwork,Monsoon,Bulldozer,Rural,"145,000",3,4,0.25
+380,110,2600,480,School Build,Winter,Crane,Suburban,"110,000",3,3,0.58
+550,180,3800,750,Port Expansion,Monsoon,Excavator,Industrial Zone,"200,000",5,5,0.82
+290,80,1850,320,Office Complex,Autumn,Forklift,Urban,"65,000",2,2,0.9
+680,220,4800,920,Highway Bridge,Summer,Excavator,Urban,"230,000",5,6,0.45
+420,130,2900,550,Wind Farm Base,Autumn,Loader,Rural,"140,000",4,4,0.89
+350,90,2400,450,Factory Build,Monsoon,Crane,Industrial Zone,"100,000",3,4,0.49
+580,190,3950,780,Canal Dredging,Winter,Excavator,Semi-urban,"175,000",4,4,0.84
+260,65,1600,290,Warehouse,Summer,Forklift,Industrial Zone,"45,000",1,1,0.6
+630,200,4300,850,Metro Tunnel,Monsoon,Tunnel Borer,Urban,"240,000",6,6,0.91
+460,140,3200,610,Railwork,Spring,Bulldozer,Rural,"135,000",3,3,0.87
+720,230,5000,980,Dam Construction,Summer,Excavator,Rural,"265,000",6,6,0.83
+320,95,2150,410,Housing Build,Monsoon,Crane,Suburban,"88,000",2,3,0.28
+510,160,3450,700,Landfill Prep,Autumn,Loader,Rural,"155,000",4,4,0.53
+670,210,4750,900,Mining,Winter,Excavator,Rural,"210,000",5,5,0.89
+800,280,5600,1100,Skyscraper Foundation,Winter,Excavator,Urban,"300,000",7,8,0.42
+300,80,2100,400,Road Repair,Autumn,Paver,Urban,"75,000",2,2,0.9
+450,130,3000,600,Solar Farm Installation,Summer,Trencher,Rural,"125,000",3,3,0.85
+530,170,3650,720,Bridge Repair,Monsoon,Crane,Semi-urban,"170,000",4,5,0.52
+240,60,1450,270,Landscaping,Spring,Loader,Suburban,"40,000",1,1,0.88
+660,220,4600,880,Stadium Construction,Winter,Excavator,Urban,"255,000",6,6,0.93
+390,120,2800,500,Comm Center Build,Spring,Crane,Suburban,"115,000",3,3,0.59
+580,200,4000,780,Dam Repair,Monsoon,Excavator,Rural,"195,000",5,6,0.23
+430,110,3000,550,Railwork Extension,Summer,Bulldozer,Rural,"138,000",3,3,0.86
+780,260,5500,1050,Airport Expansion,Monsoon,Grader,Semi-urban,"290,000",7,8,0.46
+310,90,1900,380,Parking Garage,Winter,Forklift,Urban,"80,000",2,2,0.84
+490,150,3400,660,Roadwork,Autumn,Compactor,Suburban,"125,000",3,3,0.91
+690,230,4850,940,Mining,Summer,Loader,Rural,"225,000",6,7,0.29
+360,100,2500,460,Factory Extension,Monsoon,Crane,Industrial Zone,"105,000",3,3,0.81
+560,180,3800,750,Highway Resurfacing,Spring,Paver,Semi-urban,"165,000",4,4,0.89
+710,240,5100,960,Pipeline,Monsoon,Trencher,Rural,"245,000",6,7,0.44
+270,70,1700,300,Warehouse Extension,Autumn,Forklift,Industrial Zone,"55,000",2,2,0.57
+640,210,4500,860,Port Construction,Winter,Excavator,Industrial Zone,"235,000",5,5,0.92
+410,120,2950,530,River Embankment,Monsoon,Bulldozer,Rural,"130,000",3,4,0.26
+760,250,5300,1020,Metro Line Extension,Summer,Tunnel Borer,Urban,"285,000",7,7,0.95
+340,100,2300,430,Housing Build,Spring,Crane,Suburban,"92,000",2,2,0.88
+590,190,4100,800,Highway Bridge Repair,Monsoon,Excavator,Urban,"205,000",5,6,0.47
+470,140,3250,620,Wind Farm Maintenance,Winter,Loader,Rural,"142,000",4,4,0.82
+610,200,4200,830,Rail Yard Build,Monsoon,Bulldozer,Industrial Zone,"185,000",5,5,0.8
+290,80,1800,330,Retail Store Fit-out,Summer,Forklift,Urban,"62,000",2,2,0.54
+730,240,5200,990,Dam Reinforcement,Autumn,Excavator,Rural,"270,000",6,6,0.93
+520,160,3600,700,Road Widening,Monsoon,Grader,Semi-urban,"158,000",4,5,0.2
+370,110,2650,480,School Extension,Summer,Crane,Suburban,"112,000",3,3,0.87
+680,220,4900,910,Pipeline Repair,Winter,Trencher,Rural,"215,000",5,6,0.41
+440,130,3100,580,Quarry Work,Spring,Loader,Rural,"150,000",4,4,0.89
