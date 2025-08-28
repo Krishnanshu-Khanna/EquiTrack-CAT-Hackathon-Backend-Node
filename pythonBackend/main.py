@@ -14,9 +14,16 @@ model = tf.keras.models.load_model("saved_model/time_prediction_model.keras")
 preprocessor = joblib.load("saved_model/preprocessor_time.pkl")
 client_model = tf.keras.models.load_model("saved_model/client_efficiency_model.keras")
 client_preprocessor = joblib.load("saved_model/preprocessor_client.pkl")
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Construction Time Prediction API")
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # or ["http://localhost:3000"] for your frontend
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # Input schema (based on your CSV features)
 class PredictionRequest(BaseModel):
     ActiveEngineHours: float

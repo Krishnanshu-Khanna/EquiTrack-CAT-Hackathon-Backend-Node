@@ -2,6 +2,8 @@
 const express = require("express");
 const connectDB = require("./config/db");
 require("dotenv").config();
+const cors = require("cors"); // <--- add this
+
 const asyncHandler = require("express-async-handler");
 
 // Route Imports
@@ -14,7 +16,8 @@ connectDB();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-
+// Enable CORS for all origins
+app.use(cors()); 
 // Middleware to parse JSON bodies
 app.use(express.json());
 
