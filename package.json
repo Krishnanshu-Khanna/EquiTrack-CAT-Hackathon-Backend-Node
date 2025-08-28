@@ -1,0 +1,21 @@
+{
+	"name": "equitrack-backend",
+	"version": "1.0.0",
+	"description": "EquiTrack Equipment Rental Management Backend",
+	"main": "server.js",
+	"scripts": {
+		"start": "node src/server.js",
+		"dev": "nodemon src/server.js",
+		"migrate": "node src/migrations/migrate.js",
+		"seed": "node src/seeds/seed.js"
+	},
+	"dependencies": {
+		"dotenv": "^17.2.1",
+		"express": "^5.1.0",
+		"express-async-handler": "^1.2.0",
+		"mongoose": "^8.18.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	}
+}
