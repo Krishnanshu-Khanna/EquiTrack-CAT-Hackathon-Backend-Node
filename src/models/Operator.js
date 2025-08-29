@@ -12,7 +12,7 @@ const operatorSchema = mongoose.Schema(
         name: { type: String, required: true },
         status: { type: String, enum: ["Active", "Inactive"], default: "Active" },
         certification: { type: String },
-        assignedEquipment: { type: mongoose.Schema.Types.ObjectId, ref: "Equipment" },
+        assignedEquipment: { type: String },
         hoursWorked: { type: Number, default: 0 },
         
         safeZone: {
